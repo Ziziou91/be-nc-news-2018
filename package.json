@@ -1,0 +1,26 @@
+{
+  "name": "northcoders-news-api",
+  "version": "1.0.0",
+  "description": "RESTful api for Northcoders News",
+  "main": "config.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "NODE_ENV=test mocha ./spec/*",
+    "start": "NODE_ENV=development nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ziziou91/be-nc-news-2018.git"
+  },
+  "author": "Josh Gray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ziziou91/be-nc-news-2018/issues"
+  },
+  "homepage": "https://github.com/Ziziou91/be-nc-news-2018#readme"
+}
