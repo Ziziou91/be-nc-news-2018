@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "NODE_ENV=test mocha ./spec/*",
-    "start": "NODE_ENV=development nodemon index.js"
+    "start": "NODE_ENV=dev nodemon --use_strict index.js"
   },
   "repository": {
     "type": "git",
